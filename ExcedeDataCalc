@@ -1,0 +1,6 @@
+var used = prompt("How much data has been used?")
+var daysLeft = prompt("How many days are left in the cycle?")
+
+var dataLeft = 150 - used
+var dataSpread = dataLeft / daysLeft
+alert("You can use " + dataSpread + "GB each day until the end of the cycle.")
